@@ -1,7 +1,6 @@
 const User = require("../models/User");
 const xlsx = require('xlsx');
 const Expense = require("../models/Expense");
-const { writeXLSX } = require("xlsx");
 
 //Add Expense Source
 exports.addExpense = async( req, res) => {
@@ -30,7 +29,7 @@ exports.addExpense = async( req, res) => {
     }
 }
 
-//Get All Income
+//Get All Expense
 exports.getAllExpense = async( req, res) => {
     const userId = req.user.id;
 
@@ -42,11 +41,11 @@ exports.getAllExpense = async( req, res) => {
     }
 };
 
-//Delete Income
+//Delete Expense
 exports.deleteExpense = async( req, res) => {
     try{
         await Expense.findByIdAndDelete(req.params.id);
-        res.json({ message: "Income deleted successfully"});
+        res.json({ message: "Expense deleted successfully"});
     } catch (error) {
         res.status(500).json({message: " Server Error "});
     }

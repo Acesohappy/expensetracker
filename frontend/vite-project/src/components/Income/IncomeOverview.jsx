@@ -38,4 +38,4 @@ const IncomeOverview = ({transactions, onAddIncome})=>{
   )
 }
 
-export default IncomeOverview
+export default IncomeOverview;
