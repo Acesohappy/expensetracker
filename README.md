@@ -147,11 +147,6 @@ You can now register, log in, track income & expenses, view charts, and export r
 
 ---
 
-## 📸 Screenshots
-
-_Add screenshots of Dashboard, Income, Expenses, and Charts here_
-
----
 
 ## 📜 License
 
