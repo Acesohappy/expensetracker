@@ -61,7 +61,7 @@ This app helps users securely manage their income and expenses, visualize financ
 
 ### Frontend
 - React.js
-- CSS / Bootstrap / Tailwind (as used)
+- Tailwind CSS
 - Chart libraries (Bar, Pie, Line)
 
 ### Backend
